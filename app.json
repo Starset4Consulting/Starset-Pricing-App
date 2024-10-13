@@ -4,10 +4,10 @@
     "slug": "PriceCalculatorApp",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/budget.png",
     "userInterfaceStyle": "light",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/budget.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
@@ -16,12 +16,18 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./assets/budget.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.sonjishashank.PriceCalculatorApp"
     },
     "web": {
-      "favicon": "./assets/favicon.png"
+      "favicon": "./assets/budget.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "2f287d26-fc53-46f0-8c14-afcd1adf6ce4"
+      }
     }
   }
 }
